@@ -17,24 +17,58 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: light;
+}
+
+body p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.footer h5 {
+    text-transform: uppercase;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.footer img {
+    border-radius: 100px;
+    max-width: 100px;
+    margin-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Serif Pro', serif;
 }
 
-.subheader {
-    font-family: 'Roboto', sans-serif;
+
+.hr-text {
+    background-color: white;
+   position: relative;
+    padding: 5px 15px;
+    color: black;
+    top: -12px;
+    left: 35px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.subheader {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: 700;
     font-size: 14px;
 }
 
 section {
-    padding: 70px 0px;
+    padding: 100px 0px;
 }
 
 .right {
@@ -55,8 +89,18 @@ section {
 }
 
 .footer {
-    background-color: black;
+    background:linear-gradient(0deg, rgba(22, 27, 51, 0.7), rgba(22, 27, 51, 0.7)), url("./assets/woods.jpg");
+    background-size: cover;
+    background-position: center;
     color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    margin-bottom: 15px;
 }
 
 .grid-onethird-twothird {
@@ -65,19 +109,25 @@ section {
     grid-gap: 5%;
 }
 
-.mini-subheader {
+.mini-subheader, .footer a {
     text-transform: uppercase;
-    font-family: "Roboto";
+    font-family: "Abel";
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 1px;
 
 }
 
+.center .mini-subheader {
+    margin-top: 0px;
+}
+
 .num {
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 700;
     margin-bottom: 0px;
+    font-family: "Abel";
+    line-height: 1.2em;
 }
 
 .grid-5 {
@@ -94,9 +144,19 @@ section {
 
 .btn-link {
     text-transform: uppercase;
-    font-family: "Roboto";
+    font-family: "Abel";
     border-bottom: 2px solid black;
-    margin-top: 10px;
     font-size: 20px;
     padding-bottom: 5px; 
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.footer a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none!important;
+    font-size: 14px;
 }
