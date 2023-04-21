@@ -118,6 +118,23 @@ section {
 
 }
 
+div#circle{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
 .center .mini-subheader {
     margin-top: 0px;
 }
