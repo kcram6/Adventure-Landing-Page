@@ -122,6 +122,12 @@ i.fa-quote-left {
     margin-top: 20px;
     letter-spacing: 2px;
     cursor: pointer;
+    transition: all 250ms linear;
+}
+
+.btn-outline:hover {
+    color: white;
+    background-color: #cd8930;
 }
 
 #video {
@@ -138,6 +144,21 @@ i.fa-quote-left {
     background-position: center left;
     color: white; 
     padding: 250px 0px;
+}
+
+.slick-slide img {
+    width: 100%!important;
+    height: auto;
+}
+
+.slick-slide {
+    padding: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+
 }
 
 i.fa-play {
