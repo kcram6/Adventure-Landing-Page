@@ -6,8 +6,20 @@
 
 .wrapper {
     width: 85%;
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
+}
+
+.slick-prev {
+    color: #ccc;
+    border :1px solid #ccc;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.slick-prev:before {
+    color: #ccc;
+    opacity: 1;
 }
 
 .grid-3 {
@@ -147,8 +159,7 @@ i.fa-quote-left {
 }
 
 .slick-slide img {
-    width: 100%!important;
-    height: auto;
+    max-height: 300px;
 }
 
 .slick-slide {
