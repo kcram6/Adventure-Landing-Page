@@ -39,3 +39,24 @@ $(document).ready(function(){
   ]
   });
 });
+
+
+const lenis = new Lenis({
+  duration: 2,
+  easing: (t) => Math.min(1,1 - Math.pow(1-t, 4)),
+  orientation: 'vertical',
+  gestureOrientation: 'vertical',
+  smoothWheel: true,
+  wheelMultiplier: 0.75,
+})
+
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
