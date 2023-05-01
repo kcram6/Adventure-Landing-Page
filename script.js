@@ -47,11 +47,10 @@ const lenis = new Lenis({
   orientation: 'vertical',
   gestureOrientation: 'vertical',
   smoothWheel: true,
-  wheelMultiplier: 0.75,
+  wheelMultiplier: 1,
 })
 
 lenis.on('scroll', (e) => {
-  console.log(e)
 })
 
 function raf(time) {
